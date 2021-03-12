@@ -50,6 +50,7 @@
 
 .c-item {
     padding-bottom: 50px;
+    cursor: pointer;
 }
 
 .c-header{
@@ -64,7 +65,7 @@
 .c-button {
     width: 0; 
     height: 0; 
-    cursor: pointer;
+
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
     border-top: 20px solid white;
