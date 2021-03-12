@@ -13,6 +13,11 @@
     src: url("../assets/fonts/Teko-Medium.ttf");
 }
 
+@font-face {
+    font-family: "Lite-Lo";
+    src: url("../assets/fonts/space-mono.regular.ttf");
+}
+
 .body {
     background-color: rgb(37, 37, 37);
     color: white;
@@ -33,6 +38,10 @@
     
     margin: auto;
     
+}
+
+.c-item {
+    padding-bottom: 50px;
 }
 
 .c-header{
@@ -60,6 +69,43 @@
     margin: 0;
 }
 
+.c-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.c-content .header {
+    padding: 50px;
+}
+
+.c-content .header h1 {
+    font-size: 40px;
+    font-family: Teko-Light;
+    padding: 0;
+    margin: 0;
+}
+
+.c-content .header p {
+    font-size: 18px;
+    font-family: Lite-Lo;
+    font-style: italic;
+    padding: 0;
+    margin: 0;
+}
+
+.c-content .main p{
+    font-family: Lite-Lo;
+    margin-left: 100px;
+}
+
 #item-one {
     display: none;
+}
+
+.square {
+    height: 150px;
+    width: 150px;
+    margin: 0px 50px 50px 50px;
+    background: white;
+    float: left;
 }
