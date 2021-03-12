@@ -15,7 +15,7 @@ function toggle2() {
     var x = document.getElementById("item-two");
     if (x.style.display === "none") {
         x.style.display = "flex";
-        button.style.transform = "rotate(-90deg)";
+        button.style.transform = "rotate(180deg)";
       } else {
         x.style.display = "none";
         button.style.transform = "rotate(0deg)";
@@ -27,7 +27,7 @@ function toggle3() {
     var x = document.getElementById("item-three");
     if (x.style.display === "none") {
         x.style.display = "flex";
-        button.style.transform = "rotate(-90deg)";
+        button.style.transform = "rotate(180deg)";
       } else {
         x.style.display = "none";
         button.style.transform = "rotate(0deg)";
