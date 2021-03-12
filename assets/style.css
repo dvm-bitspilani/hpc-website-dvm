@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "Teko-Light";
+    src: url("../assets/fonts/Teko-light.ttf");
+}
+
+@font-face {
+    font-family: "Teko-Regular";
+    src: url("../assets/fonts/Teko-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Teko-Medium";
+    src: url("../assets/fonts/Teko-Medium.ttf");
+}
+
+.body {
+    background-color: rgb(37, 37, 37);
+    color: white;
+    font-family: Teko-Light;
+    background-image: url(../assets/imgs/noise.png);
+}
+
+.hpc-heading {
+    font-size: 36px;
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(224, 224, 224);
+    font-family: Teko-Light;
+}
+
+.c-section {
+    width: 800px;
+    
+    margin: auto;
+    
+}
+
+.c-header{
+    background-color: rgba(192, 192, 192, 0.4);
+    flex-direction: column;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.c-button {
+    width: 0; 
+    height: 0; 
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid white;
+    margin-left: 30px;
+    margin-right: 30px;
+    align-self: center;
+}
+
+.c-header h3 {
+    font-size: 50px;
+    padding: 10px;
+    margin: 0;
+}
