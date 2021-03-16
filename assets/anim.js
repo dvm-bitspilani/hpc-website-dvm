@@ -34,3 +34,27 @@ function toggle3() {
       }
 }
 
+function toggle4() {
+  var button = document.getElementById("b4");
+  var x = document.getElementById("i4");
+  if (x.style.display === "none") {
+      x.style.display = "flex";
+      button.style.transform = "rotate(180deg)";
+    } else {
+      x.style.display = "none";
+      button.style.transform = "rotate(0deg)";
+    }
+}
+
+function toggle5() {
+  var button = document.getElementById("b5");
+  var x = document.getElementById("i5");
+  if (x.style.display === "none") {
+      x.style.display = "flex";
+      button.style.transform = "rotate(180deg)";
+    } else {
+      x.style.display = "none";
+      button.style.transform = "rotate(0deg)";
+    }
+}
+

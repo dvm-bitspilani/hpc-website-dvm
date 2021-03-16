@@ -136,18 +136,9 @@
 
 /* SETS DEFAULT VISIBILITY TO NONE */
 
-#item-one {
+.c-content{
     display: none;
 }
-
-#item-two {
-    display: none;
-}
-
-#item-three {
-    display: none;
-}
-
 
 @media only screen and (max-width: 800px) {
     .hpc-heading {
