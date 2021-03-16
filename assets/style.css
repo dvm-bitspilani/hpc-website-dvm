@@ -116,7 +116,7 @@
     height: 150px;
     width: 150px;
     margin: 0px 50px 50px 50px;
-    object-fit: contain;
+    background: white;
     opacity: 0.7;
     float: left;
 }
@@ -136,18 +136,9 @@
 
 /* SETS DEFAULT VISIBILITY TO NONE */
 
-#item-one {
+.c-content{
     display: none;
 }
-
-#item-two {
-    display: none;
-}
-
-#item-three {
-    display: none;
-}
-
 
 @media only screen and (max-width: 800px) {
     .hpc-heading {
