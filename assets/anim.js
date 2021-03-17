@@ -489,3 +489,27 @@ function toggle41() {
       button.style.transform = "rotate(0deg)";
     }
 }
+
+function toggle42() {
+  var button = document.getElementById("b42");
+  var x = document.getElementById("i42");
+  if (x.style.display === "none") {
+      x.style.display = "flex";
+      button.style.transform = "rotate(180deg)";
+    } else {
+      x.style.display = "none";
+      button.style.transform = "rotate(0deg)";
+    }
+}
+
+function toggle43() {
+  var button = document.getElementById("b43");
+  var x = document.getElementById("i43");
+  if (x.style.display === "none") {
+      x.style.display = "flex";
+      button.style.transform = "rotate(180deg)";
+    } else {
+      x.style.display = "none";
+      button.style.transform = "rotate(0deg)";
+    }
+}
