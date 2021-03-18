@@ -19,6 +19,10 @@
     src: url("../assets/fonts/space-mono.regular.ttf");
 }
 
+.c-content{
+    display: none;
+}
+
 /* BACKGROUND CSS (GRID + NOISE) */
 .body {
     background-color: rgb(19, 18, 18);
@@ -46,6 +50,10 @@
 .c-section {
     width: 800px;
     margin: auto;
+}
+
+.item-one {
+    display: none;
 }
 
 .c-item {
@@ -81,7 +89,6 @@
 }
 
 .c-content {
-    display: flex;
     flex-direction: column;
 }
 
@@ -136,9 +143,7 @@
 
 /* SETS DEFAULT VISIBILITY TO NONE */
 
-.c-content{
-    display: none;
-}
+
 
 @media only screen and (max-width: 800px) {
     .hpc-heading {

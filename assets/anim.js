@@ -1,4 +1,5 @@
 function toggle1() {
+  console.log('1');
     var button = document.getElementById("button-one");
     var x = document.getElementById("item-one");
     if (x.style.display === "none") {
